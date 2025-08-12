@@ -35,3 +35,9 @@ pip install -r requirements.txt
 streamlit run sales_dashboard.py
 4.Open the local URL shown in the terminal.
 
+
+some screenshots here :
+1..."C:\Users\sonal\OneDrive\Pictures\Screenshots\Screenshot (246).png"
+
+2..."C:\Users\sonal\OneDrive\Pictures\Screenshots\Screenshot (248).png"
+
