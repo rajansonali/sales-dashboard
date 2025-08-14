@@ -7,7 +7,8 @@ st.set_page_config(page_title="Sales Analytics Dashboard", layout="wide")
 st.title("📊 Professional Sales Data Analytics Dashboard")
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\sonal\Downloads\Sample - Superstore.csv",encoding="latin1")
+df =pd.read_csv("Sample - Superstore.csv", encoding="latin1")
+
 
 # Data Cleaning
 df.columns = df.columns.str.strip()  # Remove extra spaces
@@ -74,3 +75,4 @@ col3.plotly_chart(fig_trend, use_container_width=True)
 col4.plotly_chart(fig_top_products, use_container_width=True)
 
 st.plotly_chart(fig_heatmap, use_container_width=True)
+
